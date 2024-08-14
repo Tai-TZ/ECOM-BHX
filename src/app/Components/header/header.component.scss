@@ -1,0 +1,33 @@
+::ng-deep {
+
+    app-header {
+        .header {
+
+            background: radial-gradient(159.85% 367.97% at 150% 123.85%, #ffe147 0, #65ae17 38.76%, #469c4b 59.65%, #00713b 100%);
+
+            .header-cover {
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+
+
+                .header-section-1 {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .logo_BXH {
+
+                        img {
+                            height: 30px;
+                        }
+                    }
+                }
+
+                .header-section-2 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
